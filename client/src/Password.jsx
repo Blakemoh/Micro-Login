@@ -19,7 +19,7 @@ function Password() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:3001/register', {email, password})
+        axios.post('https://micro-login-api.vercel.app/register', {email, password})
         .then(result => {
             console.log(result);
         navigate('/home');
