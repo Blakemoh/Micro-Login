@@ -10,7 +10,7 @@ const app = express()
 
 app.use(cors(
     {
-        origin: ["https"],
+        origin: ["https://micro-login-client.vercel.app"],
         methods: ["POST", "GET"],
         credentials: true
     }
