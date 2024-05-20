@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import axios from 'axios'
+import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import Microsoftlogo from './assets/microsoftlogo.png';
 import Menudots from './assets/footerdots.png';
