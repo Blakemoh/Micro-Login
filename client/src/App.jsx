@@ -1,10 +1,10 @@
-import React from 'react'
-import { useState } from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Password from './Password'
-import Signup from './signup'
-import Home from './Home'
+import React from 'react';
+import { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Password from './Password';
+import Signup from './signup';
+import Home from './Home';
 
 function App() {
 
@@ -19,4 +19,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
